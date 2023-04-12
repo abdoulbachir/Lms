@@ -33,10 +33,7 @@ After installing MariaDB you’ll want to set the password for the root user<br/
 ```GRANT ALL PRIVILEGES on *.* to 'root'@'localhost' IDENTIFIED BY 'password';```<br/><br/>
 Or if you have a user and password already set you can go into `lms-core/src/main/resources/application.properties` and change the `spring.datasource.username` and `spring.datasource.password` to your desired username and password
 
-### Step 2: 
-run `mvn clean install` on the root folder of the library management system
-
-### Step 3: This project works best when using an ide, but you can also run it from the command line.
+### Step 2: This project works best when using an ide, but you can also run it from the command line.
 #### For the Backend
 Change directory to lms-core
 `cd lms-core` <br/>
