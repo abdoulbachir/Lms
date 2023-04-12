@@ -26,7 +26,7 @@ Maven Version:
 > 3.8.2
 
 ## Build Steps
-### Step 0 
+### Step 0: 
 Install appropriate versions of Java, Maven, and MariaDB
 ### Step 1: 
 After installing MariaDB you’ll want to set the password for the root user<br/>
